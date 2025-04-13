@@ -1,4 +1,3 @@
-Sure! Here's the **README** formatted version:
 
 ---
 
@@ -62,6 +61,20 @@ int countSubarrays(int[] nums, int k) {
 }
 ```
 
+#### Similar Problem :
+- **Leetcode 560: Subarray Sum Equals K**  
+  [Problem Link](https://leetcode.com/problems/subarray-sum-equals-k/)
+  
+- **Leetcode 523: Continuous Subarray Sum**  
+  [Problem Link](https://leetcode.com/problems/continuous-subarray-sum/)
+  
+- **Leetcode 862: Shortest Subarray with Sum at Least K**  
+  [Problem Link](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)
+  
+- **Leetcode 974: Subarrays Divisible by K**  
+  [Problem Link](https://leetcode.com/problems/subarrays-divisible-by-k/)
+
+
 ---
 
 ### 2. Maximum Sum Subarray of Size K (Leetcode 209)
@@ -85,6 +98,23 @@ int maxSumSubarray(int[] nums, int k) {
     return maxSum;
 }
 ```
+#### Similar Problem :
+
+- **Leetcode 209: Minimum Size Subarray Sum**  
+  [Problem Link](https://leetcode.com/problems/minimum-size-subarray-sum/)
+  
+- **Leetcode 567: Permutation in String**  
+  [Problem Link](https://leetcode.com/problems/permutation-in-string/)
+  
+- **Leetcode 643: Maximum Average Subarray I**  
+  [Problem Link](https://leetcode.com/problems/maximum-average-subarray-i/)
+  
+- **Leetcode 303: Range Sum Query - Immutable**  
+  [Problem Link](https://leetcode.com/problems/range-sum-query-immutable/)
+
+- **Leetcode 1186: Maximum Subarray Sum with One Deletion**  
+  [Problem Link](https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/)
+
 
 ---
 
@@ -139,6 +169,22 @@ int maxSumTwoNoOverlap(int[] nums, int L, int M) {
 }
 ```
 
+
+#### Similar Problem :
+
+- **Leetcode 713: Subarray Product Less Than K**  
+  [Problem Link](https://leetcode.com/problems/subarray-product-less-than-k/)
+  
+- **Leetcode 328: Odd Even Linked List**  
+  [Problem Link](https://leetcode.com/problems/odd-even-linked-list/)
+  
+- **Leetcode 930: Binary Subarrays With Sum**  
+  [Problem Link](https://leetcode.com/problems/binary-subarrays-with-sum/)
+  
+- **Leetcode 1052: Grumpy Bookstore Owner**  
+  [Problem Link](https://leetcode.com/problems/grumpy-bookstore-owner/)
+
+
 ---
 
 ### 5. Maximum Subarray Sum with One Deletion (Leetcode 1186)
@@ -165,6 +211,20 @@ int maximumSum(int[] arr) {
 }
 ```
 
+## Similar problems:
+
+- **Leetcode 121: Best Time to Buy and Sell Stock**  
+  [Problem Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+  
+- **Leetcode 152: Maximum Product Subarray**  
+  [Problem Link](https://leetcode.com/problems/maximum-product-subarray/)
+  
+- **Leetcode 322: Coin Change**  
+  [Problem Link](https://leetcode.com/problems/coin-change/)
+  
+- **Leetcode 740: Delete and Earn**  
+  [Problem Link](https://leetcode.com/problems/delete-and-earn/)
+
 ---
 
 ## Key Takeaways for Prefix Sum / Subarray Tricks:
@@ -173,6 +233,8 @@ int maximumSum(int[] arr) {
 - These problems often require a **combination of DP**, **sliding windows**, and **hashmaps** for optimization.
 - **Pattern to Remember**: Use **prefix sum** for any problem related to **subarray sum queries**, and **sliding window** for problems with variable length subarrays or for optimizing space-time complexity.
 
----
 
-Let me know if you need further modifications!
+## Tips:
+- Focus on **Prefix Sum**, **Sliding Window**, and **Hash Map** as core tools.
+- Practice solving problems by recognizing these patterns in questions.
+- Work on optimizing both **time complexity** and **space complexity**.
